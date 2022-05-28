@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">КНПК</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_confirm_password">Повторите пароль</string>
+    <string name="text_login">Вход</string>
+    <string name="text_register">Регистрация</string>
+    <string name="error_message_name">Полное имя</string>
+    <string name="error_message_email">Не правильно</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Введите пароль</string>
+    <string name="success_message">Готов</string>
+    <string name="text_not_member">Регистрация</string>
+    <string name="text_already_member">Логин</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Не правильно</string>
+    <string name="error_valid_email_password">Ой ошибка</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+    <string name="text_pre">Преподователь</string>
+    <string name="text_stu">Студент</string>
+    <string name="title_activity_stu">stu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Студент</string>
+    <string name="nav_header_title1">Преподователь</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_pre">preActivity</string>
+
+</resources>
