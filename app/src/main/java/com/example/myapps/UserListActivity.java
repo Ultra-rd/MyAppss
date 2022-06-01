@@ -26,7 +26,7 @@ public class UserListActivity extends AppCompatActivity {
     }
 
     public void startPre(View v){
-        Intent intent2 = new Intent(this,preActivity.class);
+        Intent intent2 = new Intent(this,prelist.class);
         startActivity(intent2);
     }
 }

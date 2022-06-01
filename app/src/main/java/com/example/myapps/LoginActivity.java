@@ -13,6 +13,8 @@ import androidx.core.widget.NestedScrollView;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputLayout;
 
+
+
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
     private final AppCompatActivity activity = LoginActivity.this;
@@ -32,15 +34,18 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private InputValidation inputValidation;
     private DatabaseHelper databaseHelper;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.login);
         getSupportActionBar().hide();
 
         initViews();
         initListeners();
         initObjects();
+
     }
 
     private void initViews() {

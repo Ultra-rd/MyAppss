@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LogiRegistrationSqlitqDatabase">
         <activity
+            android:name=".Jur"
+            android:exported="false" />
+        <activity
+            android:name=".prelist"
+            android:exported="false" />
+        <activity
             android:name=".preActivity"
             android:exported="false"
             android:label="@string/title_activity_pre"

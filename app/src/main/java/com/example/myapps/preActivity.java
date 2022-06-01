@@ -3,6 +3,7 @@ package com.example.myapps;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.TextView;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -18,12 +19,16 @@ import com.example.myapps.databinding.ActivityPreBinding;
 
 public class preActivity extends AppCompatActivity {
 
+
+
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityPreBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
 
         binding = ActivityPreBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -62,4 +67,5 @@ public class preActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
 }
