@@ -10,8 +10,9 @@
         android:id="@+id/button3"
         android:layout_width="150dp"
         android:layout_height="70dp"
-        android:text="Журнал"
         android:onClick="butjur"
+
+        android:text="Журнал"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.167"
@@ -23,7 +24,6 @@
         android:id="@+id/button4"
         android:layout_width="150dp"
         android:layout_height="70dp"
-        android:onClick="butmen"
         android:text="Меню"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,4 +31,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.385" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
